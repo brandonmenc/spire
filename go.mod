@@ -19,7 +19,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.13.1
 	github.com/aws/aws-sdk-go-v2/credentials v1.8.0
 	github.com/aws/aws-sdk-go-v2/service/kms v1.14.0
-	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.13.0
+	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.14.0
 	github.com/aws/aws-sdk-go-v2/service/sts v1.14.0
 	github.com/blang/semver/v4 v4.0.0
 	github.com/cenkalti/backoff/v3 v3.2.2
@@ -39,8 +39,8 @@ require (
 	github.com/hashicorp/go-plugin v1.4.3
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/hashicorp/hcl v1.0.1-0.20190430135223-99e2f22d1c94
-	github.com/hashicorp/vault/api v1.3.1
-	github.com/hashicorp/vault/sdk v0.3.0
+	github.com/hashicorp/vault/api v1.4.1
+	github.com/hashicorp/vault/sdk v0.4.1
 	github.com/imdario/mergo v0.3.12
 	github.com/imkira/go-observer v1.0.3
 	github.com/jinzhu/gorm v1.9.16
@@ -96,8 +96,8 @@ require (
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/armon/go-radix v1.0.0 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.10.0 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.4 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.2.0 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.5 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.3.0 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.3.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.7.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.9.0 // indirect
