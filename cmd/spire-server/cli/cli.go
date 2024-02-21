@@ -11,6 +11,7 @@ import (
 	"github.com/spiffe/spire/cmd/spire-server/cli/federation"
 	"github.com/spiffe/spire/cmd/spire-server/cli/healthcheck"
 	"github.com/spiffe/spire/cmd/spire-server/cli/jwt"
+	"github.com/spiffe/spire/cmd/spire-server/cli/localauthority"
 	"github.com/spiffe/spire/cmd/spire-server/cli/run"
 	"github.com/spiffe/spire/cmd/spire-server/cli/token"
 	"github.com/spiffe/spire/cmd/spire-server/cli/validate"
@@ -113,6 +114,9 @@ func (cc *CLI) Run(ctx context.Context, args []string) int {
 		},
 		"validate": func() (cli.Command, error) {
 			return validate.NewValidateCommand(), nil
+		},
+		"localauthority revoke": func() (cli.Command, error) {
+			return localauthority.NewRevokeCommand(), nil
 		},
 	}
 
